@@ -45,10 +45,10 @@ object TryDemo extends App{
 
 
 
+  
+  val database = readFile("specify the path of user_info.txt")  // download user_info.txt
   //test1
   //User do not exist in the database
-  val database = readFile("src/main/resources/user_info.txt")
-
   val test1 = displayUserInfo(25,database)
 
   println(test1)
